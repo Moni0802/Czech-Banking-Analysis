@@ -2,8 +2,8 @@
 📊Dashboard Power bi service - https://app.powerbi.com/groups/1174ebfa-ab4e-4191-9901-5f7713d742c1/reports/61aea913-cadc-4aaa-ac9a-ca88bde88fa3/3c2eea99d9539005409e?experience=power-bi
 
 This project is on the datasets covers 1M records generated on a random basis involving 8 tables.
-Description to complete project:
-🚀Cloud usage : Aws & Snowflake--- Dump data into it and then fetch the data from S3 buckets into Snowflake through storage integration creating roles and policies in aws. Creating file format & stage for trust relationship.
+** Description to complete project:**
+**🚀Cloud usage** : Aws & Snowflake--- Dump data into it and then fetch the data from S3 buckets into Snowflake through storage integration creating roles and policies in aws. Creating file format & stage for trust relationship.
                 Then creating pipelines in snowflake through which new data will flow from s3 bucket to respective tables in snowflake.Also define auto_refresh because whenever data is dumped into s3 then our table in snowflake automatically updates.
                 Also created stored procedures because whenever data is dropped in aws then automatically through task on schedulled time data will come in stored procedure table.
                 Then i connect snowflake to the power bi and using sql queries i created tables dropped in the power bi and used them for dashboarding.
